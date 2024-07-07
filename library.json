@@ -1,0 +1,20 @@
+{
+  "name": "SimpleDebug",
+  "version": "1.0.0",
+  "description": "A simple debugging library for Arduino and ESP32 that allows you to easily toggle debug code on and off",
+  "keywords": ["debug", "logging", "simpledebug"],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/LeeorNahum/SimpleDebug"
+  },
+  "authors":
+  [
+    {
+      "name": "Leeor Nahum",
+      "email": "leeornahum@gmail.com"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
