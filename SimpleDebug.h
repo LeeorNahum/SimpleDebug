@@ -2,9 +2,9 @@
 #define SIMPLEDEBUG_H
 
 #ifdef DEBUG_ENABLE
-  #define DEBUG(x) x
+  #define DEBUG(...) __VA_ARGS__
 #else
-  #define DEBUG(x)
+  #define DEBUG(...)
 #endif
 
 #endif // SIMPLEDEBUG_H
